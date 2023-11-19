@@ -993,6 +993,16 @@ nav {
     gap: 64px;
     align-self: stretch;
   }
+  .firstHeader h2 {
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .firstHeader span {
+    font-size: 16px;
+  }
+  .stats h3 {
+    font-size: 30px;
+  }
   .loginButtons {
     display: none;
   }
@@ -1085,6 +1095,9 @@ nav {
     gap: 24px;
     align-self: stretch;
   }
+  .secondItem-content h4 {
+    font-size: 30px;
+  }
   .thirdElement {
     display: flex;
     width: 100%;
@@ -1092,6 +1105,12 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 32px;
+  }
+  .thirdElement-header h2 {
+    font-size: 30px;
+  }
+  .thirdElement-header span {
+    font-size: 16px;
   }
   .logosContainer {
     display: flex;
@@ -1135,6 +1154,12 @@ nav {
     flex-direction: column;
     width: 100%;
   }
+  .fourthContainer-header h4 {
+    font-size: 30px;
+  }
+  .fourthContainer-header span {
+    font-size: 16px;
+  }
   .donateNow-button {
     width: 100%;
   }
@@ -1155,13 +1180,24 @@ nav {
   .fifthSeparator {
     display: none;
   }
-
+  .fifthHeader h3 {
+    font-size: 30px;
+  }
+  .fifthHeader p {
+    font-size: 16px;
+  }
   .sixthElement {
     display: flex;
     width: 100%;
     padding: 32px 16px;
     flex-direction: column;
     align-items: center;
+  }
+  .sixthHeader h2 {
+    font-size: 30px;
+  }
+  .sixthHeader p {
+    font-size: 16px;
   }
   .Footer {
     padding: 32px 16px;
