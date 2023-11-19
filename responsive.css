@@ -79,16 +79,18 @@ nav {
 }
 .firstElement {
   display: flex;
-  width: 100%;
   padding: 96px 0px;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
 }
 .firstElement-container {
   display: flex;
-  max-width: 1280px;
+  width: 1280px;
   align-items: center;
   justify-content: space-between;
+}
+.firstElement-container img {
+  width: 100%;
 }
 .first-left-item {
   display: flex;
@@ -103,14 +105,14 @@ nav {
   align-items: flex-start;
   gap: 20px;
 }
+#troublemap {
+  display: flex;
+}
 .firstHeader h2 {
   margin: 0;
   font-size: 48px;
   font-weight: 800;
   line-height: 100%;
-}
-.firstElement-container img {
-  width: 100%;
 }
 .firstHeader span {
   font-size: 20px;
@@ -728,10 +730,10 @@ nav {
 }
 .sixthElement {
   display: flex;
-  flex-direction: column;
-  width: 100%;
   padding: 96px 0px;
   align-items: center;
+  justify-content: center;
+  align-self: center;
 }
 .sixthContainer {
   display: flex;
@@ -740,13 +742,12 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.sixthForm-container {
+form {
   display: flex;
+  width: 95%;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  align-self: stretch;
-  max-width: 640px;
 }
 .sixthHeader {
   display: flex;
@@ -755,7 +756,6 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-
 .sixthHeader h2 {
   margin: 0;
   text-align: center;
