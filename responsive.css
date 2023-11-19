@@ -13,6 +13,7 @@ body {
 a {
   text-decoration: none;
   color: white;
+  width: auto;
 }
 nav {
   display: flex;
@@ -1012,7 +1013,7 @@ nav {
   }
   .firstElement-container {
     display: flex;
-    width: 375px;
+    max-width: 375px;
     padding: 32px 16px;
     flex-direction: column;
     align-items: center;
@@ -1034,15 +1035,15 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-self: center;
     align-self: stretch;
   }
-  .firstButtons div {
+  .DonateNow,
+  .LearnMore {
     display: flex;
-    min-width: 343px;
-    padding: 12px 20px;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
   }
+
   .firstSponsors {
     padding: 0;
     border: none;
@@ -1071,7 +1072,7 @@ nav {
     display: none;
   }
   .secondElement-container {
-    width: 375px;
+    max-width: 375px;
     padding: 0px 16px 32px 16px;
     flex-direction: column;
     align-items: center;
@@ -1121,7 +1122,7 @@ nav {
   }
   .fourthElement-container {
     display: flex;
-    width: 375px;
+    max-width: 375px;
     padding: 32px 16px;
     flex-direction: column;
     align-items: center;
