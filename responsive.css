@@ -974,7 +974,7 @@ nav {
   }
 }
 /* MOBILE VERSION */
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   body {
     width: 100%;
     margin-left: auto;
